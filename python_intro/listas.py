@@ -2,8 +2,11 @@ temperatures = [20, 30, 40, 50]
 for item in temperatures:
     print(item)
 
+temperatures[3] = 60
+print(temperatures)
 
 techList = ["Apple", "Google", "Microsoft", "Dell"]
+techList.append("Uala")
 print(techList[1:3])
 print(len(techList))
 
