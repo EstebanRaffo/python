@@ -22,6 +22,9 @@ print(fruits)
 for clave, valor in fruits.items():
     print(clave, valor)
 
+for clave, valor in fruits.items():
+    print("clave: {}, valor: {}".format(clave, valor))
+
 del(fruits['apple'])
 
 print(fruits)
