@@ -5,6 +5,8 @@ try:
     print(div)
 except ZeroDivisionError:
     print("Divisor no valido")
+except Exception:
+    print("Exception: " + str(Exception))
 except:
     print("Hubo un error")
 else:
