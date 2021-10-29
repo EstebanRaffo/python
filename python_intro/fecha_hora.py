@@ -14,3 +14,4 @@ seg = fechaYHora.second
 
 print("Fecha: {}/{}/{}".format(dia, mes, año))
 print("Hora: {}:{}:{}".format(hora, min, seg))
+print("Año: {}".format(año))
