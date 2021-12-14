@@ -1,4 +1,8 @@
 temperatures = [20, 30, 40, 50]
+temperatures1 = [20, 30, 40, 50]
+
+print("Son iguales ?", temperatures == temperatures1)
+
 for item in temperatures:
     print(item)
 

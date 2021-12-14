@@ -3,7 +3,8 @@
 tupla_colores = ("celeste", "blanco", "negro")
 tupla_A = ("Fondo10", "A")
 tupla_B = ("Fondo10", "A")
-
+# tupla_C = tupla_B + ("C")
+# print("tupla_C = ", tupla_C)
 print("¿Son iguales las tuplas? ", tupla_A == tupla_B)
 
 print(tupla_colores)
