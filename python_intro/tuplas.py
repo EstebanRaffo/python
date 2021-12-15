@@ -30,6 +30,10 @@ lista_tuplas_A = [tupla_A, tupla_B, tupla_C]
 lista_tuplas_B = [tupla_B, tupla_A, tupla_C]
 lista_tuplas_C = [tupla_C, tupla_B, tupla_A]
 
+print(f"lista_tuplas_A: {lista_tuplas_A}")
+print(f"lista_tuplas_B: {lista_tuplas_B}")
+print(f"lista_tuplas_C: {lista_tuplas_C}")
+
 for tuplaA, tuplaB, tuplaC in zip(lista_tuplas_A, lista_tuplas_B, lista_tuplas_C):
     print(f"tuplaA: {tuplaA[0]} {tuplaA[1]}")
     print(f"tuplaB: {tuplaB[0]} {tuplaB[1]}")
