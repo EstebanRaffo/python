@@ -9,11 +9,11 @@ tupla_E = (1, 1)
 print("¿Son iguales las tuplas A y B? ", tupla_A == tupla_B)
 print("¿Son iguales las tuplas E y D? ", tupla_D == tupla_E)
 
-lista_tuplas = [("Fondo10", "Z"), ("Fondo10", "B"), ("Fondo10", "P")]
-if tupla_A in lista_tuplas:
-    print("tupla_A está en lista_tuplas")
+lista_tuplas = [("Fondo10", "Z"), ("Fondo10", "B"), ("Fondo10", "P"), (1, 1)]
+if tupla_D in lista_tuplas:
+    print("tupla_D está en lista_tuplas")
 else:
-    print("tupla_A NO está en lista_tuplas")
+    print("tupla_B NO está en lista_tuplas")
 
 if tupla_A not in lista_tuplas:
     print("tupla_A NO está en lista_tuplas")
