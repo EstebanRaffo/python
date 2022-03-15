@@ -4,8 +4,10 @@ tupla_colores = ("celeste", "blanco", "negro")
 tupla_A = ("Fondo10", "A")
 tupla_B = ("Fondo10", "B")
 tupla_C = ("Fondo10", "C")
-
-print("¿Son iguales las tuplas? ", tupla_A == tupla_B)
+tupla_D = (1, 1)
+tupla_E = (1, 1)
+print("¿Son iguales las tuplas A y B? ", tupla_A == tupla_B)
+print("¿Son iguales las tuplas E y D? ", tupla_D == tupla_E)
 
 lista_tuplas = [("Fondo10", "Z"), ("Fondo10", "B"), ("Fondo10", "P")]
 if tupla_A in lista_tuplas:
