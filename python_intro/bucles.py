@@ -3,6 +3,9 @@ numeros = range(10, 20)
 for num in numeros:
     print(num)
 
+# range(a,b,d) nos genera los valores desde a hasta b con incrementos de d
+for x in range(0, 10, 1):
+    print(x)
 
 numbers = range(5, 20, 2)
 for number in numbers:
