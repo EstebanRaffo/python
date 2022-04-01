@@ -72,7 +72,7 @@ import re
 
 txt = "Está Anulado"
 txt1 = "EstÃ¡ Anulado"
-txt2 = "NÃºmero"
+txt2 = "Ãºmero"
 txt3 = "DescriÃ³ciÃ³n"
 
 x = re.findall("Ã", txt)
@@ -81,10 +81,23 @@ z = re.findall("Ã", txt2)
 w = re.findall("Ã", txt3)
 
 print(txt.find('Ã'))
+print(txt1.find('Ã'))
 print(txt2.find('Ã'))
+print(txt3.find('Ã'))
 
 print(f"Se encontró {len(x)} coincidencias")
 print(f"Se encontró {len(y)} coincidencias")
 print(f"Se encontró {len(z)} coincidencias")
 print(f"Se encontró {len(w)} coincidencias")
 
+contiene_caracter_invalido = txt.find('Ã') >= 0
+if not contiene_caracter_invalido:
+    print("txt no contiene caracter invalido")
+else:
+    print("txt contiene caracter invalido")
+
+contiene_caracter_invalido = txt3.find('Ã') >= 0
+if not contiene_caracter_invalido:
+    print("txt1 no contiene caracter invalido")
+else:
+    print("txt1 contiene caracter invalido")
