@@ -75,6 +75,10 @@ txt1 = "EstÃ¡ Anulado"
 txt2 = "Ãºmero"
 txt3 = "DescriÃ³ciÃ³n"
 
+arrayTxt = txt.split()
+for caracter in arrayTxt:
+    print(caracter)
+
 x = re.findall("Ã", txt)
 y = re.findall("Ã", txt1)
 z = re.findall("Ã", txt2)
@@ -96,7 +100,7 @@ if not contiene_caracter_invalido:
 else:
     print("txt contiene caracter invalido")
 
-contiene_caracter_invalido = txt3.find('Ã') >= 0
+contiene_caracter_invalido = txt1.find('Ã') >= 0
 if not contiene_caracter_invalido:
     print("txt1 no contiene caracter invalido")
 else:
