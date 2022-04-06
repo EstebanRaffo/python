@@ -1,8 +1,14 @@
 temperatures = [20, 30, 40, 50, 60]
 temperatures1 = [20, 30, 40, 50]
+temperature = 50
 
 print("Son iguales ?", temperatures == temperatures1)
 print(f"temperatures tiene {len(temperatures)} valores")
+print(f"temperature es tipo {type(temperature)} valores")
+print(f"temperatures es tipo {type(temperatures)} valores")
+
+
+
 
 for item in temperatures:
     print(item)
