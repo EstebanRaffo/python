@@ -8,8 +8,6 @@ print(f"temperature es tipo {type(temperature)} valores")
 print(f"temperatures es tipo {type(temperatures)} valores")
 
 
-
-
 for item in temperatures:
     print(item)
 
