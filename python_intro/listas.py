@@ -7,6 +7,12 @@ print(f"temperatures tiene {len(temperatures)} valores")
 print(f"temperature es tipo {type(temperature)} valores")
 print(f"temperatures es tipo {type(temperatures)} valores")
 
+if type(temperature) == int:
+    print("temperature es int")
+
+if type(temperatures) == list:
+    print("temperatures es list")
+
 
 for item in temperatures:
     print(item)
