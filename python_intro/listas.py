@@ -1,3 +1,14 @@
+# Métodos de listas
+# index(n) (devuelve el orden dentro de la lista del elemento "n")
+# count (cuenta la cantidad de elementos)
+# sort(reverse=False)
+# append (agrega un valor al final)
+# extend (agregaega una lista entera de valores)
+# insert(x, "n") (inserta el elemento "n" en la posicion "x")
+# pop ("n") "saca" el elemento "n" y me lo devuelve como return
+# reverse (invierte el orden dado)
+# clear() (borra los elementos de la lista)
+
 temperatures = [20, 30, 40, 50, 60]
 temperatures1 = [20, 30, 40, 50]
 temperature = 50
