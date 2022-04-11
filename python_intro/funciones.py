@@ -61,3 +61,13 @@ def operar(func, *args):
 
 operar(cuadrado, 2, 3, 5)
 operar(raiz_cuadrada, 9, 25, 64, 49)
+
+
+def fijar_valor_venta(precio=100, umbral=2):
+  #print(f"el valor de venta es  {precio * umbral}")
+  return precio * umbral
+
+print(fijar_valor_venta())
+print(fijar_valor_venta(precio=200))
+print(fijar_valor_venta(umbral=3))
+print(fijar_valor_venta(precio=200, umbral=3))
