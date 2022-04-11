@@ -48,6 +48,7 @@ lista_resultado = list(map(lambda numero : numero * 2, numeros))
 print(lista_resultado)
 
 
+# Pasar Funcion como parametro a otra
 def cuadrado(x):
     return x ** 2
 
