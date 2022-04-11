@@ -3,7 +3,7 @@
 # count (cuenta la cantidad de elementos)
 # sort(reverse=False)
 # append (agrega un valor al final)
-# extend (agregaega una lista entera de valores)
+# extend (agrega una lista entera de valores)
 # insert(x, "n") (inserta el elemento "n" en la posicion "x")
 # pop ("n") "saca" el elemento "n" y me lo devuelve como return
 # reverse (invierte el orden dado)

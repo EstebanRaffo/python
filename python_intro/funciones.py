@@ -46,3 +46,17 @@ print(resultado)
 
 lista_resultado = list(map(lambda numero : numero * 2, numeros))
 print(lista_resultado)
+
+
+def cuadrado(x):
+    return x ** 2
+
+def raiz_cuadrada(x):
+    return x ** 0.5
+
+def operar(func, *args):
+    for n in args:
+        print(func(n))
+
+operar(cuadrado, 2, 3, 5)
+operar(raiz_cuadrada, 9, 25, 64, 49)
