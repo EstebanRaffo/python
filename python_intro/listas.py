@@ -9,6 +9,22 @@
 # reverse (invierte el orden dado)
 # clear() (borra los elementos de la lista)
 
+lista = list(range(100))
+print(lista[0:100])
+print(lista[0:100:1])
+print(lista[::1])
+
+lista = list(range(200))
+print(lista[9:22])
+
+lista = list(range(10))
+print(lista[::2])
+
+lista = list(range(20))
+print(lista[9:20:2])
+
+print(lista.clear())
+
 temperatures = [20, 30, 40, 50, 60]
 temperatures1 = [20, 30, 40, 50]
 temperature = 50
