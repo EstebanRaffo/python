@@ -25,9 +25,12 @@ print(lista[9:20:2])
 
 print(lista.clear())
 
-temperatures = [20, 30, 40, 50, 60]
-temperatures1 = [20, 30, 40, 50]
+temperatures = [20, 30, 40, 50, 60, 10, 0]
+temperatures1 = [20, 30, 40, 50, 4]
 temperature = 50
+
+print("El maximo de temperatures es ", max(temperatures))
+print("El minimo de temperatures es ", min(temperatures))
 
 print("Son iguales ?", temperatures == temperatures1)
 print(f"temperatures tiene {len(temperatures)} valores")
