@@ -22,7 +22,10 @@ else:
 
 print(tupla_colores)
 print(tupla_colores[1])
-print(len(tupla_colores))
+print("len(tupla_colores): ", len(tupla_colores))
+print("type([tupla_colores]): ", type([tupla_colores]))
+print("type(tupla_colores): ", type(tupla_colores))
+
 
 for color in tupla_colores:
     print(color)
