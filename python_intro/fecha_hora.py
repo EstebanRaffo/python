@@ -1,8 +1,10 @@
 from datetime import datetime, date
+import time
 
 fechaYHora = datetime.now()
 
 print(fechaYHora)
+print(time.strftime("%Y-%m-%d %H:%M:%S"))
 
 año = fechaYHora.year
 mes = fechaYHora.month
