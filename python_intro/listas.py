@@ -63,3 +63,8 @@ print(techList)
 print("Apple" in techList)
 techList.clear()
 print(techList)
+
+lista1 = list(range(5, 10, 1))
+print("lista1: ", lista1)
+lista2 = list(range(10, 15, 1))
+print("lista2: ", lista2)
