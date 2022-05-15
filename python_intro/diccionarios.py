@@ -6,6 +6,9 @@ fruits = {
 for fruit in fruits:
     print(f"{fruit}: {fruits[fruit]}")
 
+print(fruits.keys())
+print(fruits.values())
+
 print(fruits)
 fruits['banana'] = 2.60
 print(fruits)
