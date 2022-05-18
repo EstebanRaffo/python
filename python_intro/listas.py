@@ -20,6 +20,10 @@ print(lista[9:22])
 lista = list(range(10))
 print(lista[::2])
 
+# Lista por comprension
+otraLista = [(e, 1) for e in lista if e != 2]
+print("otraLista: ", otraLista)
+
 lista = list(range(20))
 print(lista[9:20:2])
 
